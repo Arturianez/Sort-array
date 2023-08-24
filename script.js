@@ -8,8 +8,8 @@ button.addEventListener('click', function(){
     const list_item = document.createElement('li')
     wrapper.append(ulist)
     for (let i = 0; i < array.length; i++) {
-        const item = array[i]
-        ulist.textContent = item
+        const items = array[i]
+        ulist.textContent = items
         ulist.append(list_item)
     }
 })
